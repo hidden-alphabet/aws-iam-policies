@@ -7,7 +7,8 @@
       "Action": "s3:PutObject",
       "Resource": [
         "arn:aws:s3:::hidden-alphabet/datasets/webpages/*/*/*.html",
-        "arn:aws:s3:::hidden-alphabet/datasets/webpages/*/*/*.parquet"
+        "arn:aws:s3:::hidden-alphabet/datasets/webpages/*/*/*.parquet",
+        "arn:aws:s3:::hidden-alphabet/functions/*.zip"
      ]
     }
   ]
